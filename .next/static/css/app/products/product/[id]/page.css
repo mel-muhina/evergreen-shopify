@@ -1,0 +1,44 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/products/product/[id]/SingleProductPage.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.single-product-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+
+.image-container img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15px;
+}
+
+.image-container:first-child img {
+    width: 40rem; /* Specific size for the first image */
+    height: 40rem;
+  }
+
+.text-container {
+    padding-top: 10%;
+}
+

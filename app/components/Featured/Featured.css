@@ -1,0 +1,47 @@
+.featured-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0%; 
+    border-radius: 0px; 
+}
+
+.featured-item{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 400px;
+    margin-left: 10px;
+    
+}
+
+.bg-dark.text-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    padding: 0%;
+    border-radius: 0px;
+    border: none;
+    height: 100px;
+    width: 67vh;
+    text-align: center; /* Center the text itself */
+    
+}
+
+.featured-img {
+    height: 80vh;
+    width: 67vh;
+    object-fit: cover;
+    border-radius: 0px;
+
+}
+
+.card-title.h5 {
+    font-size: 3rem;
+    padding-bottom: 5%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}

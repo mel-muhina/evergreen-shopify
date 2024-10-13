@@ -1,0 +1,26 @@
+.nav-title.navbar-brand {
+    padding-right: 1%;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+    --bs-bg-opacity: 0;
+}
+
+.custom-container {
+    width: 60%;
+  }
+
+.icons {
+    margin-right: 5%;
+    height: 25px;
+}
+
+.nav-icon {
+    margin-right: 45%;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+}
